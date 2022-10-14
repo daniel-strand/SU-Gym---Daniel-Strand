@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgba(255, 255, 255, 0.5);
+
+    width: 90%;
+    height: 90px;
+
+    display: flex;
+
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 20px;
+
+    box-shadow: 0px 0px 5px 1px;
+
+    position: fixed;
+    top: 0;
+}
+
+header img{
+    width: 130px;
+    margin-top: 3px;
+}
+
+header nav{
+    display:flex;
+    width: 89%;
+    justify-content: right;
+}
+
+
+header nav a{
+    text-decoration: none;
+    color: #103fb8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12pt;
+    margin-left: 50px;
+    margin-top: 23px;
+
+}
+
+main{
+    margin-top: 110px;
+}
+
+
+main section{
+    background-color: aqua;
+    height: 400px;
+}
+
