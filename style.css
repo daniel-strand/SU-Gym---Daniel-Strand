@@ -65,10 +65,12 @@ main{
 
 .to-box:hover{
     cursor: pointer;
+    opacity: 60%;
+    transition: .3s;
 }
 
 .box-et{
-    background-color: #e1e5f6;
+    background-color: #ced7ff;
     width: 50%;
 
 }
