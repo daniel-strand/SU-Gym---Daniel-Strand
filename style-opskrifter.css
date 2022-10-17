@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*menu box*/
+.text-pic{
+    position: relative;
+}
+
+/*menu box*/
+.opskrift-nav{
+    position: absolute;
+    
+    bottom: -75px;
+    height: 140px;
+
+    background-color: #005aff;
+    
+    width: 900px;
+    
+    text-align: left;
+
+
+}
+
+/*text i menu box*/
+.opskrift-nav a{
+    font-size: 22pt;
+    font-family: 'Inter';
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+
+    margin-left: 60px;
+    position: relative;
+    top: 50px;
+
+
+}
+
+/*menu box center*/
+.text-pic{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.s-overskrift{
+    margin-top: 140px;
+
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 18pt;
+}
+
+.pic-in-box{
+    background-color: rgb(227, 227, 227);
+    height: 500px;
+    margin-top: 70px;
+
+    display: flex;
+}
+
+.box-text {
+    width: 560px;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.macros{
+    background-color: rgb(206, 215, 255);
+    width: 500px;
+    padding: 25px 30px 10px 30px;
+    margin-top: 157px;
+    display: flex;
+}
+
+.macros p{
+    font-size: 14pt;
+    margin-left: 30px;
+
+}
+
+.pic-in-box img{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.div-hover :hover{
+    cursor: pointer;
+    opacity: 50%;
+
+}
+
+
+.box-in-pic{
+    margin-top: 70px;
+}
+
+
+
+.salad{
+    position: relative;
+}
+
+.salad img{
+    width: 100%;
+}
+
+.box-in-pic-text{
+    position: absolute;
+    top: 0px;
+
+    height: 400px;
+    width: 560px;
+    
+    margin-left: 80px;
+    margin-top: 50px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+
+
+    background-color: rgb(227, 227, 227, 0.9);
+}
+
+.box-in-pic-text h2{
+    margin-bottom: 50px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 30pt;
+}
+
+.box-in-pic-text p{
+    margin-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 13pt;
+}
