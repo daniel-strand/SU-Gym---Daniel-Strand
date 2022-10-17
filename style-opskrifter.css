@@ -12,29 +12,31 @@
 .opskrift-nav{
     position: absolute;
     
-    bottom: -75px;
-    height: 140px;
+    bottom: -60px;
+    height: 120px;
 
     background-color: #005aff;
     
-    width: 900px;
+    width: 800px;
     
-    text-align: left;
+    
+    display: flex;
+    justify-content: space-evenly
 
 
 }
 
 /*text i menu box*/
 .opskrift-nav a{
-    font-size: 22pt;
+    font-size: 18pt;
     font-family: 'Inter';
     font-weight: 400;
     text-decoration: none;
     color: white;
 
-    margin-left: 60px;
+
     position: relative;
-    top: 50px;
+    top: 45px;
 
 
 }
@@ -66,78 +68,41 @@
 .box-text {
     width: 560px;
     margin-top: 50px;
-    padding-left: 20px;
     padding-right: 20px;
 }
 
 .macros{
     background-color: rgb(206, 215, 255);
-    width: 500px;
+    width: 545px;
     padding: 25px 30px 10px 30px;
     margin-top: 157px;
     display: flex;
+    justify-content: space-evenly;
 }
 
-.macros p{
-    font-size: 14pt;
-    margin-left: 30px;
-
-}
 
 .pic-in-box img{
     margin-top: 50px;
     margin-left: 20px;
 }
 
-.div-hover :hover{
-    cursor: pointer;
-    opacity: 50%;
-
-}
 
 
-.box-in-pic{
+
+
+.pic-in-box-left{
+    background-color: rgb(227, 227, 227);
+    height: 500px;
     margin-top: 70px;
+
+    display: flex;
 }
 
 
-
-.salad{
-    position: relative;
-}
-
-.salad img{
-    width: 100%;
-}
-
-.box-in-pic-text{
-    position: absolute;
-    top: 0px;
-
-    height: 400px;
-    width: 560px;
-    
-    margin-left: 80px;
+.pic-in-box-left img{
     margin-top: 50px;
-
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-
-
-    background-color: rgb(227, 227, 227, 0.9);
+    margin-left: 80px;
 }
 
-.box-in-pic-text h2{
-    margin-bottom: 50px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 30pt;
-}
 
-.box-in-pic-text p{
-    margin-bottom: 20px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 300;
-    font-size: 13pt;
-}
+

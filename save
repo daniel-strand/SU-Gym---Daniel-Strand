@@ -1,0 +1,67 @@
+<section class="box-in-pic">
+            <div class="salad">
+                <img src="pic/salad.jpg" alt="sund salat ">
+                <div class="box-in-pic-text">
+                    <h2>Mordern caesar</h2>
+                    <p>Et morderne take på den klassiske caesar salat. Fedtfattig, low carb og højt proteinindhold!</p>
+                    <div class="macros">
+                        <P>350 kal</P>
+                        <p>40g protein</p>
+                        <p>60g kulhydrat</p>
+                        <p>4g fedt</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+
+        .box-in-pic{
+            margin-top: 70px;
+        }
+        
+        
+        
+        .salad{
+            position: relative;
+        }
+        
+        .salad img{
+            width: 100%;
+        }
+        
+        .box-in-pic-text{
+            position: absolute;
+            top: 0px;
+        
+            height: 400px;
+            width: 560px;
+            
+            margin-left: 80px;
+            margin-top: 50px;
+        
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 40px;
+        
+        
+            background-color: rgb(227, 227, 227, 0.9);
+        }
+        
+        .box-in-pic-text h2{
+            margin-bottom: 50px;
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            font-size: 30pt;
+        }
+        
+        .box-in-pic-text p{
+            margin-bottom: 20px;
+            font-family: 'Inter', sans-serif;
+            font-weight: 300;
+            font-size: 13pt;
+        }
+        
+        
+        
