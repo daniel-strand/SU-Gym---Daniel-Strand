@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.shake-box p{
+    background-color: #005aff;
+    text-align: center;
+    
+    margin-left: 320px;
+
+    padding-top: 35px;
+
+    height: 85px;
+    width: 800px;
+
+    position: relative;
+    bottom: 60px;
+    
+    font-size: 30pt;
+    font-family: 'Inter';
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.macros-banner{
+    display: flex;
+}
+
+.macros-pie{
+    margin-left: 274px;
+    scale: 75%;
+    margin-top: -45px;
+}
+
+
+.macros-numbers{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    height: 200px;
+    width: 400px;
+
+    margin-left: 145px;
+
+    /* Skal med?
+    background-color: #e3e3e3;
+    */
+}
+
+.t-l{
+    border-bottom: 1px solid rgb(0, 0, 0);
+
+}
+
+.t-r{
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
+}
+
+
+
+.b-r{
+    border-left: 1px solid rgb(0, 0, 0);
+
+}
+
+.opskrift{
+    display: flex;
+}
+
+.macros-numbers div h4{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20pt;
+
+    text-align: center;
+
+    margin-top: 25px;
+}
+
+.macros-numbers div p{
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 15pt;
+
+    text-align: center;
+}
+
+.ingredienser{
+    margin-left: 320px;
+    margin-top: 20px;
+}
+
+.ingredienser div p{
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 14pt; 
+    
+    height: 50px;
+
+    padding-top: 30px;
+    padding-left: 10px;
+
+    border-bottom: 1px solid rgb(0, 0, 0);
+
+    width: 360px;
+}
+
+.ingredienser h2{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20pt; 
+
+    margin-bottom: 20px;
+
+}
+
+
+.fremgang{
+    margin-left: 57px;
+    margin-top: 20px;
+}
+
+.fremgang div p{
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 14pt; 
+    
+    height: 50px;
+
+    padding-top: 30px;
+    padding-left: 10px;
+
+    border-bottom: 1px solid rgb(0, 0, 0);
+
+    width: 360px;
+}
+
+.fremgang h2{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20pt; 
+
+    margin-bottom: 20px;
+
+}
+
+.fremgang .long p{
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.tips{
+    margin-left: 745px;
+    margin-top: -134px;
+}
+
+.tips div p{
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 14pt; 
+    
+    height: 50px;
+
+    padding-top: 30px;
+    padding-left: 10px;
+
+    border-bottom: 1px solid rgb(0, 0, 0);
+
+    width: 360px;
+}
+
+.tips h2{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20pt; 
+
+    margin-bottom: 20px;
+}
+
+.tips .long p{
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+
+
+
+.cta{
+    background-color: #005aff;
+    border-color: #005aff;
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+    padding-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.15s,
+    color 0.15s;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+    position: relative;
+    left: 320px;
+    bottom: 46px;
+
+}
+
+.cta:hover{
+    background-color:white;
+    color: #005aff;
+}
+
+.cta:active{
+    opacity: 70%;
+}
+
+.cta p{
+    font-size: 12.8pt;
+}
+
