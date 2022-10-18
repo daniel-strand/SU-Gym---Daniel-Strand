@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.shake-box p{
+    background-color: #005aff;
+    text-align: center;
+    
+    margin-left: 320px;
+    margin-right: 400px;
+    padding-top: 35px;
+
+
+
+    height: 85px;
+    width: 800px;
+
+    position: relative;
+    top: 272px;
+    
+    font-size: 30pt;
+    font-family: 'Inter';
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: white;
+}
+
+.shake-box{
+    background-image: url(pic/shake.jpg);
+    height: 335px;
+}
+
+main section h1{
+    text-align: center;
+    margin-top: 150px;
+    padding-top: 50px;
+
+    background-color:#e3e3e3;
+
+    font-family: 'Inter';
+    font-size: 24pt;
+}
+
+
+
+.four-box{
+    height: 400px;
+    background-color: #e3e3e3;
+
+    padding: 70px;
+}
+
+.four-box div{
+    width: 250px;
+    text-align: center;
+
+    background-color: white;
+    
+}
+
+.four-box{
+display: flex;
+justify-content: space-around;
+}
+
+.four-box div h3{
+    margin-top: 20px;
+    
+    
+    padding-bottom: 15px;
+    font-family: 'Inter';
+    font-size: 20pt;
+
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.four-box div :hover{
+    cursor: pointer;
+    opacity: 70%;
+    transition: 0.2s;
+}
+
+
+.macros-small{
+    display: flex;
+    font-family: 'Inter';
+    font-weight: 300;
+    margin-top: 20px;
+
+}
+
