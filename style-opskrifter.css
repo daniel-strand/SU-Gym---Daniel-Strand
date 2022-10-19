@@ -93,12 +93,13 @@
 
 
 .s-overskrift{
-    margin-top: 20px;
+    margin-top: 130px;
     margin-bottom: -20px;
 
     text-align: center;
     font-family: 'Inter';
     font-size: 18pt;
+
 
 
 }
@@ -123,7 +124,7 @@
 
 .macros{
     background-color: rgb(206, 215, 255);
-    width: 545px;
+    width: 539px;
     padding: 25px 30px 10px 30px;
     margin-top: 157px;
     display: flex;
