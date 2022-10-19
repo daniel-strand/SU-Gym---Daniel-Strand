@@ -190,7 +190,7 @@
 
 
 
-.cta{
+ .cta-2{
     background-color: #005aff;
     border-color: #005aff;
     border-style: solid;
@@ -212,16 +212,16 @@
 
 }
 
-.cta:hover{
+.cta-2:hover{
     background-color:white;
     color: #005aff;
 }
 
-.cta:active{
+.cta-2:active{
     opacity: 70%;
 }
 
-.cta p{
+.cta-2 p{
     font-size: 12.8pt;
 }
 
