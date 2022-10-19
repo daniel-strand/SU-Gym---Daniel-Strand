@@ -36,7 +36,7 @@
 main section h1{
     text-align: center;
     margin-top: 150px;
-    padding-top: 50px;
+    padding-top: 30px;
 
     background-color:#e3e3e3;
 
@@ -50,7 +50,7 @@ main section h1{
     height: 400px;
     background-color: #e3e3e3;
 
-    padding: 70px;
+    padding: 50px;
 }
 
 .four-box div{
@@ -58,7 +58,17 @@ main section h1{
     text-align: center;
 
     background-color: white;
-    
+
+    border-radius: 5px;  
+}
+
+.big-box{
+    box-shadow: 0px 5px 10px #888888;
+}
+
+.four-box img{
+    border-top-left-radius:5px;
+    border-top-right-radius: 5px;
 }
 
 .four-box{
@@ -68,7 +78,6 @@ justify-content: space-around;
 
 .four-box div h3{
     margin-top: 20px;
-    
     
     padding-bottom: 15px;
     font-family: 'Inter';
@@ -92,3 +101,6 @@ justify-content: space-around;
 
 }
 
+.space{
+    height: 100px;
+}
