@@ -110,11 +110,7 @@ main{
     width: 1425px;
 }
 
-.to-box:hover{
-    cursor: pointer;
-    opacity: 60%;
-    transition: .3s;
-}
+
 
 .box-et{
     background-color: #ced7ff;
@@ -125,14 +121,15 @@ main{
 .box-text{
     margin-right: 80px;
     margin-left: 80px;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 .box-text h2{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
-    font-size: 30pt;
+    font-size: 25pt;
+
 }
 
 .box-text h4{
@@ -151,9 +148,74 @@ main{
     line-height: 30px;
 }
 
-.box-to{
-    width: 50%;
-    
+.cta{
+    background-color: #005aff;
+    border-color: #005aff;
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+    padding-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.15s,
+    color 0.15s;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    margin-left: 80px;
+
 }
+
+.cta:hover{
+    background-color: #ced7ff;
+    color: #005aff;
+}
+
+.cta:active{
+    opacity: 70%;
+}
+
+.cta p{
+    font-size: 12.8pt;
+}
+
+
+
+.cta-1{
+    background-color: #005aff;
+    border-color: #005aff;
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+    padding-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.15s,
+    color 0.15s;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    margin-left: 80px;
+    margin-top: 40px;
+
+}
+
+.cta-1:hover{
+    background-color: #ced7ff;
+    color: #005aff;
+}
+
+.cta-1:active{
+    opacity: 70%;
+}
+
+.cta-1 p{
+    font-size: 12.8pt;
+}
+
 
 
