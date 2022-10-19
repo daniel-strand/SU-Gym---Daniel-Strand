@@ -30,7 +30,7 @@
 
 .macros-pie{
     margin-left: 274px;
-    scale: 75%;
+    scale: 70%;
     margin-top: -45px;
 }
 
@@ -40,13 +40,13 @@
     grid-template-columns: 1fr 1fr;
     
     height: 200px;
-    width: 400px;
+    width: 370px;
 
-    margin-left: 145px;
+    margin-left: 172px;
 
-    /* Skal med?
-    background-color: #e3e3e3;
-    */
+   
+
+    
 }
 
 .t-l{

@@ -77,9 +77,28 @@ main{
 
 
 .banner img{
-    width: 100%;
+    width: 1425px;
     margin-bottom: -4px;
     
+}
+
+
+.banner-text{
+    padding: 20px 80px;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 300px;
+    text-align: center;
+
+    font-family: 'Inter';
+    font-size: 28pt;
+    font-weight: 400;
+    
+
+    position: relative;
+    left: 490px;
+    bottom: 250px;
+
+    margin-bottom: -130px;
 }
 
 
@@ -106,14 +125,22 @@ main{
 .box-text{
     margin-right: 80px;
     margin-left: 80px;
-    margin-top: 70px;
+    margin-top: 60px;
 }
 
 .box-text h2{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 30pt;
+}
+
+.box-text h4{
+    margin-bottom: 40px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 13pt;
+    line-height: 30px;
 }
 
 .box-text p{

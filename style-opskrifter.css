@@ -37,24 +37,74 @@
 
     position: relative;
     top: 45px;
-
-
 }
 
-/*menu box center*/
+
+
+.opskrift-nav a{
+    display: inline-block;
+    position: relative;
+    color: white;
+  }
+  
+.opskrift-nav a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 4px;
+    bottom: 70px;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+.opskrift-nav a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+
+  /*menu box center*/
 .text-pic{
     display: flex;
     justify-content: center;
 }
 
 
+.banner-text{
+    padding: 30px 80px;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 200px;
+    text-align: center;
+
+    font-family: 'Inter';
+    font-size: 30pt;
+    font-weight: 400;
+    
+
+    position: relative;
+    left: 550px;
+    bottom: 250px;
+}
+
+
 
 .s-overskrift{
-    margin-top: 140px;
+    margin-top: 20px;
+    margin-bottom: -20px;
 
     text-align: center;
     font-family: 'Inter';
     font-size: 18pt;
+
+
+}
+
+.s-overskrift h1{
+    font-weight: 400;
 }
 
 .pic-in-box{
