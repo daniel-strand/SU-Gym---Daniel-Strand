@@ -7,12 +7,12 @@
     background-color: #005aff;
     text-align: center;
     
-    margin-left: 320px;
+    margin-left: 220px;
 
     padding-top: 35px;
 
     height: 85px;
-    width: 800px;
+    width: 1000px;
 
     position: relative;
     bottom: 60px;
@@ -29,7 +29,7 @@
 }
 
 .macros-pie{
-    margin-left: 274px;
+    margin-left: 304px;
     scale: 70%;
     margin-top: -45px;
 }
@@ -42,7 +42,7 @@
     height: 200px;
     width: 370px;
 
-    margin-left: 172px;
+    margin-left: 162px;
 
    
 
@@ -89,7 +89,7 @@
 }
 
 .ingredienser{
-    margin-left: 320px;
+    margin-left: 220px;
     margin-top: 20px;
 }
 
@@ -105,7 +105,7 @@
 
     border-bottom: 1px solid rgb(0, 0, 0);
 
-    width: 360px;
+   width: 438px;
 }
 
 .ingredienser h2{
@@ -119,7 +119,7 @@
 
 
 .fremgang{
-    margin-left: 57px;
+    margin-left: 102px;
     margin-top: 20px;
 }
 
@@ -135,7 +135,7 @@
 
     border-bottom: 1px solid rgb(0, 0, 0);
 
-    width: 360px;
+    width: 438px;
 }
 
 .fremgang h2{
@@ -154,7 +154,7 @@
 }
 
 .tips{
-    margin-left: 745px;
+    margin-left: 770px;
     margin-top: -134px;
 }
 
@@ -170,7 +170,7 @@
 
     border-bottom: 1px solid rgb(0, 0, 0);
 
-    width: 360px;
+    width: 438px;
 }
 
 .tips h2{
@@ -201,15 +201,16 @@
     cursor: pointer;
     transition: background-color 0.15s,
     color 0.15s;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
 
     position: relative;
-    left: 320px;
+    left: 220px;
     bottom: 46px;
 
+    font-size: 14pt;
 }
 
 .cta-2:hover{
@@ -221,7 +222,5 @@
     opacity: 70%;
 }
 
-.cta-2 p{
-    font-size: 12.8pt;
-}
+
 
